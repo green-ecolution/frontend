@@ -42,6 +42,8 @@
 }
 
 :root {
+  --green-dark: oklch(0.5236 0.0942 139.43);
+  --green-light: oklch(0.7455 0.144 113.88);
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.145 0 0);
@@ -58,9 +60,9 @@
   --accent: oklch(0.97 0 0);
   --accent-foreground: oklch(0.205 0 0);
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: var(--green-light);
+  --input: var(--green-light);
+  --ring: var(--green-dark);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
