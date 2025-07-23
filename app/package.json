@@ -23,7 +23,7 @@
     "@tanstack/react-router": "1.120.20",
     "@tanstack/router-generator": "1.120.20",
     "@tanstack/react-query-devtools": "^5.50.1",
-    "@tanstack/react-router-devtools": "1.120.20",
+    "@tanstack/react-router-devtools": "1.129.8",
     "date-fns": "^4.1.0",
     "immer": "^10.1.1",
     "leaflet": "^1.9.4",
