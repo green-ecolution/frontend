@@ -168,6 +168,12 @@ importers:
 
   packages/components:
     dependencies:
+      '@fontsource/lato':
+        specifier: ^5.2.6
+        version: 5.2.6
+      '@fontsource/nunito-sans':
+        specifier: ^5.2.6
+        version: 5.2.6
       '@hookform/resolvers':
         specifier: ^5.1.1
         version: 5.1.1(react-hook-form@7.60.0(react@19.1.0))
@@ -871,6 +877,12 @@ packages:
   '@eslint/plugin-kit@0.3.3':
     resolution: {integrity: sha512-1+WqvgNMhmlAambTvT3KPtCl/Ibr68VldY2XY40SL1CE0ZXiakFR/cbTspaF5HsnpDMvcYYoJHfl4980NBjGag==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+
+  '@fontsource/lato@5.2.6':
+    resolution: {integrity: sha512-ykbyuHKHdFsV8QNWPgo2kkCV0veY8/w1HzPlTd7f08LRGGYijPoN7QHkVKPq5QLpgeNauPPe+0a6oRhd8b6MpQ==}
+
+  '@fontsource/nunito-sans@5.2.6':
+    resolution: {integrity: sha512-f3qQqoZXtJPqhrh1M/CTeFZnRsZj7fEnILmGmbyNdlx9GrddQ3avQWwsa0cnBkG5UFGWvnzcfuJp1s+PNHjBsg==}
 
   '@hookform/resolvers@5.1.1':
     resolution: {integrity: sha512-J/NVING3LMAEvexJkyTLjruSm7aOFx7QX21pzkiJfMoNG0wl5aFEjLTl7ay7IQb9EWY6AkrBy7tHL2Alijpdcg==}
@@ -5220,6 +5232,10 @@ snapshots:
     dependencies:
       '@eslint/core': 0.15.1
       levn: 0.4.1
+
+  '@fontsource/lato@5.2.6': {}
+
+  '@fontsource/nunito-sans@5.2.6': {}
 
   '@hookform/resolvers@5.1.1(react-hook-form@7.60.0(react@19.1.0))':
     dependencies:
