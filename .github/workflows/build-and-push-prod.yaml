@@ -98,7 +98,7 @@ jobs:
           tags: ghcr.io/${{ env.REPO_LC }}:${{ env.RELEASE_VERSION }}, ghcr.io/${{ env.REPO_LC }}:latest
 
       - name: Notify management repo to update submodules
-        uses: peter-evans/repository-dispatch@v3
+        uses: peter-evans/repository-dispatch@v4
         with:
           token: ${{ secrets.GREEN_ECOLUTION_PAT }}
           repository: green-ecolution/green-ecolution
