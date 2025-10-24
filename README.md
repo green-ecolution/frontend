@@ -8,6 +8,11 @@
 
 # Green Ecolution Frontend 🌿
 
+> [!IMPORTANT]  
+> **This repository has been archived.**  
+> Active development of the Green Ecolution frontend now continues in the unified **[green-ecolution/green-ecolution](https://github.com/green-ecolution/green-ecolution)** monorepo.  
+> This repository is no longer maintained — please use the new repository for all future contributions and issues.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/4ea25141-135a-493c-b9f6-e1cbc7a7aa41"/>
 </p>
